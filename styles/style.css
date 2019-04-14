@@ -1,0 +1,130 @@
+body {
+  background-color: #f1f1f1;
+}
+
+.clearfix {
+  clear: both;
+}
+
+main {
+  max-width: 1200px;
+  margin: 25px auto;
+}
+main .info {
+  width: 28%;
+  float: left;
+  margin-right: 2%;
+}
+
+.info .bio {
+  background-color: #a9ebdc;
+  text-align: center;
+  border-radius: 7px 7px 0 0;
+}
+.info .bio img.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.info .bio h1 {
+  font-size: 2em;
+  font-weight: 200;
+}
+.info .bio h2 {
+  font-size: 1.4em;
+  font-weight: 200;
+  color: gray;
+}
+
+.social-links i {
+  font-size: 1.2em;
+  /* margin:10px; */
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  height:50px;
+}
+
+.fab:hover {
+  font-size:1.8em;
+  transition: 0.5s;
+}
+
+.download {
+  background-color: white;
+  text-align: center;
+  padding: 30px 0px;
+  border-radius: 0 0 7px 7px;
+}
+.download a {
+  color: white;
+  background-color: #0285ab;
+  text-decoration: none;
+  font-weight: 200;
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+main .content {
+  width: 70%;
+  float: left;
+  background-color: white;
+  box-sizing: border-box;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), -1px -1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.about h1 {
+  font-size: 2em;
+  font-weight: 200;
+  margin-top: 35px;
+}
+.about p {
+  font-weight: 200;
+  color: gray;
+  line-height: 25px;
+  padding-bottom: 5px;
+}
+
+.about li {
+  color: gray;
+  font-weight: 200;
+  line-height: 25px;
+  font-size: 0.9em;
+}
+
+.contacts, .skills {
+  width: 50%;
+  float: left;
+}
+.contacts h1, .skills h1 {
+  font-size: 1.6em;
+  font-weight: 200;
+}
+.contacts li, .skills li {
+  line-height: 40px;
+  font-weight: 300;
+}
+.contacts i, .skills i {
+  color: gray;
+  font-size: 1.4em;
+  margin-right: 10px;
+}

@@ -1,0 +1,32 @@
+@media (min-width: 795px) and (max-width: 1200px) {
+    main {
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width: 980px) {
+    .contacts, .skills {
+        width: 100%;
+    }
+}
+
+@media (max-width: 794px) {
+    main{
+        width:94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main .info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    main .content {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
